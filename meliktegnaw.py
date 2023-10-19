@@ -4,7 +4,7 @@ from telebot import TeleBot,telebot,types,util
 from telebot.types import InlineKeyboardMarkup,InlineKeyboardButton
 from telebot.util import user_link
 
-ADMIN_ID= 5249435830 #550518325 
+ADMIN_ID= 550518325 
 # id during the test [5249435830 ]
 bot_token = "6809638781:AAHI3ucRVlZOwJjESxkCc-_9TFwfgmCluWs"
 bot=telebot.TeleBot(bot_token,parse_mode="HTML")
