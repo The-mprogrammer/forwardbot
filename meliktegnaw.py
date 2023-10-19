@@ -4,9 +4,9 @@ from telebot import TeleBot,telebot,types,util
 from telebot.types import InlineKeyboardMarkup,InlineKeyboardButton
 from telebot.util import user_link
 
-ADMIN_ID= 6404191424 #550518325 
-# id during the test [6404191424 ]
-bot_token = "6867044723:AAGeJ0QxZtSWiobeeTwwSh9oWgnOAZoDv1w"
+ADMIN_ID= 5249435830 #550518325 
+# id during the test [5249435830 ]
+bot_token = "6809638781:AAHI3ucRVlZOwJjESxkCc-_9TFwfgmCluWs"
 bot=telebot.TeleBot(bot_token,parse_mode="HTML")
 
 #this help us to create an inline button with attached to text
