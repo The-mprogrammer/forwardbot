@@ -31,7 +31,7 @@ def greetUSer(msg):
 def toAdmin(msg):
     user= msg.from_user
     #for admin only
-    bot.forward_message(ADMIN_ID,msg.chat.id,msg.message_id) 
+    bot.copy_message(ADMIN_ID,msg.chat.id,msg.message_id) 
     bot.send_message(ADMIN_ID,f"This message is sent from: {user_link(user)}")
     #notify the user,their msg is sent successfully 
     bot.reply_to(msg,"Ergan ke seene jira!\n irra deebite erguf kana tuqi:> /start\n your message is delivered successfully,to send another file click /start",reply_markup=markup) 
